@@ -18,7 +18,7 @@
            document.getElementById("y").innerHTML=m + m1 + m2 + m3 + m4;
       }
      };
-     xmlhttp.open("GET", "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=4a91622c18c14216a9c5dcac181ef7a0", true);
+     xmlhttp.open("GET", "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=a8df7a9c70154c58bb2db4e0c44d7be4", true);
      xmlhttp.send();
     }
 
