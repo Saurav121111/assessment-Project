@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>
+            APIS
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body id="home">
+        <nav id="navbar">
+            <h2><a href="#home"><span class="text-primary">News</span>Api</a></h2>
+        <ul>
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">Weather</a></li>
+       <li><a href="#news">International</a></li>
+        </ul>
+    </nav>
+    <header id="showcase">
+        <div class="showcase-content">
+            <div class="container">
+                <h1>API<br><span class="text-primary">PROJECT</span></h1>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+    <div class="container">
+        <div style="text-align: center;">
+            <br><br><br><br>
+            <div id="citylabel">City</div>                      <!-- city name-->
+            <h3 id="dayandtime"></h3>                                            <!-- time-->
+            <div id="cloud"></div><img id="icon" src="" alt="">                      <!--cloud image-->
+            <br>
+            <button  id="cel">C</button>&nbsp;               <!-- buttons-->
+            <button  id="far">F</button>                      <!--""-->
+            <h1 id="valuelabel"></h1>                        <!--value-->
+        <br>
+        <input type="text" id="citytext" placeholder="city">
+        <br>
+        <h4 id="feedback"></h4>                              <!-- to print city not found-->
+        
+    </div>
+</div>
+    </section>
+    <section id="news">
+           
+            <div class="container1">
+                <div id="y">
+                        <button type="button" onclick="loadDoc()" id="messi"><sb>Click Here to Get Some News</b></button> 
+                </div>
+
+            </div>
+            
+
+
+    </section>
+   
+   
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <script src="ajax.js"></script>
+    </body>
+</html>
