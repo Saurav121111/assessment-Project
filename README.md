@@ -10,6 +10,8 @@ JAVASCRIPT
 
 AJAX
 
+JQuery
+
 # END POINTS
 
 http://api.openweathermap.org/data/2.5/weather
