@@ -6,7 +6,7 @@ $(document).ready(function(){
       {
        var city = $("#citytext").val();        //getting city name
            $.ajax({
-               url:"http://api.openweathermap.org/data/2.5/weather?q="+city+"&units="+a+
+               url:"https://api.openweathermap.org/data/2.5/weather?q="+city+"&units="+a+
                "&APPID=d22bdd8f42f4fc713ac197a8cbf0eaec",              // url and key
                type:"GET",
                datatype:"jsonp",           //data type
@@ -17,7 +17,7 @@ $(document).ready(function(){
                    document.getElementById("valuelabel").innerHTML=data.main.temp;         // temperature
                   document.getElementById("cloud").innerHTML=data.weather[0].main;         // cloud
                    document.getElementById("citylabel").innerHTML=data.name+" , "+data.sys.country;        //country and place
-               var icon="http://api.openweathermap.org/img/w/"+data.weather[0].icon+".png";                //getting cloud image link
+               var icon="https://api.openweathermap.org/img/w/"+data.weather[0].icon+".png";                //getting cloud image link
                document.getElementById("icon").src=icon;                                               //setting src
                //console.log(icon);
 
